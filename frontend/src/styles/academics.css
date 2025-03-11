@@ -1,0 +1,95 @@
+.academics-container {
+    display: flex;
+    justify-content: baseline;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.se{
+    height:225px;
+    width: 700px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    border-radius: 15px;
+    background-color:#131315;
+    gap: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    color: white;
+    padding: 20px;
+}
+#sm{
+    color: white;
+}
+    
+.line{
+    margin-top: 20px;
+    width: 700px;
+    height: 0.5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.line2{
+    margin-top: 40px;
+    width: 700px;
+    height: 0.5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#cro{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 40px;
+    height: 40px;
+    background-color:rgba(255, 255, 255, 0.1);
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 330px;
+    margin-top: 60px;
+}
+#tex{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    margin-top: 20px;
+}
+.im{
+
+    width: 700px;
+    height: 360px;
+    background-color:#131315;
+    margin-left: 750px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    margin-bottom: 265px;
+}
+
+.title {
+    color: white;
+}
+.mg {
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1fr 1.5fr;
+    gap: 10px;
+    padding: 18px;
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size:small;
+}
+.mh{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1fr 1.5fr;
+    gap: 10px;
+    padding: 12px;
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    background-color:  #3333333d;
+}
+.sp{
+    height: 200px;
+    width: 750px;
+    background-color: aquamarine;
+}

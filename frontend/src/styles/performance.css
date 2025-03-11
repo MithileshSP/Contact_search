@@ -1,0 +1,136 @@
+.academics-container {
+    display: flex;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.technical-competition{
+    height: 100px;
+    width: 315px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    border-radius: 15px;
+    background-color:#131315;
+    gap: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    color: white;
+    padding: 20px;
+    line-height: 1.5;
+    
+}
+#icon{
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    margin-right: 10px;
+}
+#heading{
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+}
+#nums{
+    font-size: 30px;
+}
+#progress{
+    color: rgb(200, 200, 200);
+}
+.paper-presentation{
+    height: 100px;
+    width: 315px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    border-radius: 15px;
+    background-color:#131315;
+    gap: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    color: white;
+    padding: 20px;
+    line-height: 1.5;  
+}
+.project-competition{
+    height: 100px;
+    width: 315px;
+    position: absolute;
+    top: 100px;
+    left: 780px;
+    border-radius: 15px;
+    background-color:#131315;
+    gap: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    color: white;
+    padding: 20px;
+    line-height: 1.5;
+    
+}
+.product-development{
+    height: 100px;
+    width: 315px;
+    position: absolute;
+    top: 100px;
+    left: 1160px;
+    border-radius: 15px;
+    background-color:#131315;
+    gap: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    color: white;
+    padding: 20px;
+    line-height: 1.5;
+}
+.patent{
+    height: 100px;
+    width: 315px;
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    border-radius: 15px;
+    background-color:#131315;
+    gap: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    color: white;
+    padding: 20px;
+    line-height: 1.5;
+    
+}
+.internship{
+    height: 100px;
+    width: 315px;
+    position: absolute;
+    top: 270px;
+    left: 400px;
+    border-radius: 15px;
+    background-color:#131315;
+    gap: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    color: white;
+    padding: 20px;
+    line-height: 1.5;  
+}
+.online-course{
+    height: 100px;
+    width: 315px;
+    position: absolute;
+    top: 270px;
+    left: 780px;
+    border-radius: 15px;
+    background-color:#131315;
+    gap: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    color: white;
+    padding: 20px;
+    line-height: 1.5;
+    
+}
+.indicator{
+    height: 100px;
+    width: 315px;
+    position: absolute;
+    top: 270px;
+    left: 1160px;
+    border-radius: 15px;
+    background-color:#131315;
+    gap: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    color: white;
+    padding: 20px;
+    line-height: 1.5;
+}
