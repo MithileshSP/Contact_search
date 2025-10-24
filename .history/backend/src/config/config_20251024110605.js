@@ -13,7 +13,6 @@ const connection = mysql.createPool({
   ssl: {
     rejectUnauthorized: true,
     DB_CA_CERT: process.env.DB_CA_CERT
-  }
 });
 
 connection.getConnection((err, conn) => {
