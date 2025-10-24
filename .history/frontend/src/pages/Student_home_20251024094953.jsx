@@ -18,6 +18,8 @@ export default function Home() {
         const fetchStudentData = async () => {
             try {
                 const response = await fetch(`${import.meta.env.VITE_API_URL}/student_details/${rollno}`);
+
+                const response = await fetch(`http://contactsearch-production.up.railway.app/student_details/`);
                 if (!response.ok) throw new Error("Failed to fetch student data");
                 const data = await response.json();
                 setStudent(data);

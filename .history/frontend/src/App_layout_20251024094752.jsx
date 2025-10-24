@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Login from "./components/login/Login";
 
 import Home from "./pages/Student_home";
-import Layout from "./components/layout/Layout";
+import Layout from "./components/";
 
 function App_layout() {
   const [role, setRole] = useState(localStorage.getItem("role")); 
