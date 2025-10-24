@@ -13,9 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.json());
 
-app.get("/", (req, res) => {
-    res.send("API is running...");
-});
+a
 
 app.post("/api/login", (req, res) => {
     const { username, password } = req.body;

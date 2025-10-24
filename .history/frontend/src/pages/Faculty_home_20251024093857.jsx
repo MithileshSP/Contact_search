@@ -15,7 +15,7 @@ export default function FacultyHome({ searchQuery = '' }) {
   useEffect(() => {
     const fetchStudentDetails = async () => {
       try {
-        const response = await fetch("https://contactsearch-production.up.railway.app/student_details");
+        const response = await fetch("contactsearch-production.up.railway.app");
         if (!response.ok) throw new Error("Failed to fetch data");
 
         const data = await response.json();
